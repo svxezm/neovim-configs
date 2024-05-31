@@ -19,6 +19,8 @@ vim.keymap.set("n", "<leader>f", function()
     vim.lsp.buf.format()
 end)
 
+vim.keymap.set("n", "<leader>w", ":w<CR>", { noremap = true, silent = false })
+
 vim.keymap.set('n', '<leader>r', ':RunCode<CR>', { noremap = true, silent = false })
 vim.keymap.set('n', '<leader>rf', ':RunFile<CR>', { noremap = true, silent = false })
 vim.keymap.set('n', '<leader>rft', ':RunFile tab<CR>', { noremap = true, silent = false })
