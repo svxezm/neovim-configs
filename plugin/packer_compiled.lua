@@ -79,6 +79,16 @@ _G.packer_plugins = {
     path = "/home/monitz/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["Omnisharp-vim"] = {
+    loaded = true,
+    path = "/home/monitz/.local/share/nvim/site/pack/packer/start/Omnisharp-vim",
+    url = "https://github.com/OmniSharp/Omnisharp-vim"
+  },
+  ["auto-pairs"] = {
+    loaded = true,
+    path = "/home/monitz/.local/share/nvim/site/pack/packer/start/auto-pairs",
+    url = "https://github.com/jiangmiao/auto-pairs"
+  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/home/monitz/.local/share/nvim/site/pack/packer/start/cmp-buffer",
@@ -103,6 +113,31 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/monitz/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
+  },
+  ["coc-css"] = {
+    loaded = true,
+    path = "/home/monitz/.local/share/nvim/site/pack/packer/start/coc-css",
+    url = "https://github.com/neoclide/coc-css"
+  },
+  ["coc-json"] = {
+    loaded = true,
+    path = "/home/monitz/.local/share/nvim/site/pack/packer/start/coc-json",
+    url = "https://github.com/neoclide/coc-json"
+  },
+  ["coc-prettier"] = {
+    loaded = true,
+    path = "/home/monitz/.local/share/nvim/site/pack/packer/start/coc-prettier",
+    url = "https://github.com/neoclide/coc-prettier"
+  },
+  ["coc-tslint-plugin"] = {
+    loaded = true,
+    path = "/home/monitz/.local/share/nvim/site/pack/packer/start/coc-tslint-plugin",
+    url = "https://github.com/neoclide/coc-tslint-plugin"
+  },
+  ["coc-tsserver"] = {
+    loaded = true,
+    path = "/home/monitz/.local/share/nvim/site/pack/packer/start/coc-tsserver",
+    url = "https://github.com/neoclide/coc-tsserver"
   },
   ["coc.nvim"] = {
     loaded = true,
@@ -185,15 +220,40 @@ _G.packer_plugins = {
     path = "/home/monitz/.local/share/nvim/site/pack/packer/start/undotree",
     url = "https://github.com/mbbill/undotree"
   },
+  ["vim-closer"] = {
+    loaded = true,
+    path = "/home/monitz/.local/share/nvim/site/pack/packer/start/vim-closer",
+    url = "https://github.com/rstacruz/vim-closer"
+  },
   ["vim-fugitive"] = {
     loaded = true,
     path = "/home/monitz/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
   },
+  ["vim-js"] = {
+    loaded = true,
+    path = "/home/monitz/.local/share/nvim/site/pack/packer/start/vim-js",
+    url = "https://github.com/yuezk/vim-js"
+  },
+  ["vim-jsx-pretty"] = {
+    loaded = true,
+    path = "/home/monitz/.local/share/nvim/site/pack/packer/start/vim-jsx-pretty",
+    url = "https://github.com/maxmellon/vim-jsx-pretty"
+  },
+  ["vim-surround"] = {
+    loaded = true,
+    path = "/home/monitz/.local/share/nvim/site/pack/packer/start/vim-surround",
+    url = "https://github.com/tpope/vim-surround"
+  },
   ["vim-transparent"] = {
     loaded = true,
     path = "/home/monitz/.local/share/nvim/site/pack/packer/start/vim-transparent",
     url = "https://github.com/tribela/vim-transparent"
+  },
+  ["yats.vim"] = {
+    loaded = true,
+    path = "/home/monitz/.local/share/nvim/site/pack/packer/start/yats.vim",
+    url = "https://github.com/HerringtonDarkholme/yats.vim"
   }
 }
 

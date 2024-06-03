@@ -30,7 +30,22 @@ return require('packer').startup(function(use)
     use('tpope/vim-fugitive')
     use('tribela/vim-transparent')
     use{'neoclide/coc.nvim', branch = 'release'}
+    use('neoclide/coc-tsserver')
+    use('neoclide/coc-tslint-plugin')
+    use('neoclide/coc-css')
+    use('neoclide/coc-json')
+    use('neoclide/coc-prettier')
     use('CRAG666/code_runner.nvim')
+    use('OmniSharp/Omnisharp-vim')
+
+    use('rstacruz/vim-closer')
+    use('tpope/vim-surround')
+    use('jiangmiao/auto-pairs')
+
+    -- JSX and TSX
+    use('yuezk/vim-js')
+    use('HerringtonDarkholme/yats.vim')
+    use('maxmellon/vim-jsx-pretty')
 
     use {
         'VonHeikemen/lsp-zero.nvim',
