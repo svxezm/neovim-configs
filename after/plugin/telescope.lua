@@ -6,4 +6,3 @@ vim.keymap.set('n', '<leader>ps', function()
 end)
 vim.keymap.set('n', "gt", "<cmd>diffget //2<CR>")
 vim.keymap.set('n', "gn", "<cmd>diffget //3<CR>")
-
