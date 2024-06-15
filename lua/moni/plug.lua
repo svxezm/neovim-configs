@@ -41,6 +41,9 @@ Plug 'yuezk/vim-js'
 Plug 'HerringtonDarkholme/yats.vim'
 Plug 'maxmellon/vim-jsx-pretty'
 
+-- C#
+Plug 'jlcrochet/vim-razor'
+
 vim.call('plug#end')
 
 vim.cmd.colorscheme("rose-pine")
