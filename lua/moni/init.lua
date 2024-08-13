@@ -1,5 +1,0 @@
-require("moni.remap")
-require("moni.plug")
-require("moni.set")
-require("mason").setup()
-require("code_runner").setup()

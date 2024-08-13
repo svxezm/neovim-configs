@@ -1,2 +1,2 @@
-require("moni")
+require("liz")
 print("Welcome back~")
