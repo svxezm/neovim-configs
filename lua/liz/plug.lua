@@ -30,6 +30,7 @@ Plug 'neoclide/coc-tslint-plugin'
 Plug 'neoclide/coc-css'
 Plug 'neoclide/coc-json'
 Plug 'neoclide/coc-prettier'
+Plug 'mattn/emmet-vim'
 
 Plug 'ap/vim-css-color'
 Plug 'rstacruz/vim-closer'
